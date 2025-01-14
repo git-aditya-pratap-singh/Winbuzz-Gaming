@@ -1,0 +1,171 @@
+.conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    .subContainerA{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 1.5rem;
+        background: var(--theme-color);
+        box-shadow: var(--navbar-shadow);
+        ._navIcon{
+            display: none;
+        }
+        .subChildContainerAB{
+            display: flex;
+            align-items: center;
+            gap:1.5rem;
+            align-items: center;
+            button{
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                padding: 0.5rem;
+                border-radius: 5px;
+                color: #fff;
+                font-weight: 400;
+                &:nth-child(1){
+                    background-color: rgb(1, 202, 1);
+                    &:hover{
+                        scale: 1.05;
+                        transition: all 0.8s ease-in-out;
+                    }
+                }
+                &:nth-child(2){
+                    background-color: rgb(228, 0, 12);
+                    &:hover{
+                        scale: 1.05;
+                        transition: all 0.8s ease-in-out;
+                    }
+                }
+                &:nth-child(3){
+                    background-color: transparent;
+                    border: 1px solid gray;
+                    &:hover{
+                        background-color: #fff;
+                        color: #111;
+                        transition: all 0.8s ease-in-out;
+                    }
+                }
+            }
+            .search-input {
+                max-width: 200px; 
+                padding: 0.65rem;
+                font-size:0.8rem;
+                border: 1px solid #ccc;
+                border-radius: 5px; 
+                outline: none;
+                background-color: transparent;
+                color: #fff;
+                transition: border-color 0.3s ease, box-shadow 0.3s ease;
+                &:focus{
+                    border-color: var(--primary); 
+                    box-shadow: 0 0 2px var(--primary);
+                }
+                &::placeholder{
+                    color: #fff;
+                }
+            }
+            .balance{
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                label{
+                    font-size: 0.75rem;
+                    &:nth-child(1){
+                        color: #fff;
+                    }
+                    &:nth-child(2){
+                        color: green;
+                    }
+                }
+            }
+            .userName{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                gap: 0.5rem;
+                align-items: center; 
+                color: #fff;
+            }
+
+        }
+    }
+    .subContainerB{
+        width: 100%;
+        padding: 0.5rem;
+        background-color: var(--card-foreground);
+        overflow-x: scroll;
+        font-size: 0.75rem;
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            color: #fff;
+        } 
+    }
+    .subContainerC{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .subChildContainerCA{
+            width: 20rem;
+            background-color: red;
+        }
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 1041px){
+    .conatiner{
+        position: relative;
+        .subContainerA{
+            ._navIcon{
+                display: block;
+            }
+            .subChildContainerAB{
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                position: absolute;
+                top:6rem;
+                background-color: #fbf6db;
+                padding: 1.5rem;
+                border-radius: 5px;
+                box-shadow: var( --box-shadow);
+                transition: all 0.4s ease-in;
+                button{
+                    &:nth-child(3){
+                        color: var(--card-foreground);
+                    }
+                }
+                .search-input{
+                    color: var(--card-foreground);
+                    &::placeholder{
+                        color: var(--card-foreground);
+                    }
+                }
+                .balance{
+                    label{
+                        &:nth-child(1){
+                            color: var(--card-foreground); 
+                        }
+                    }
+                }
+                .userName{
+                    color: var(--card-foreground);
+                }
+            }
+        }
+    }
+}
