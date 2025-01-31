@@ -1,0 +1,862 @@
+
+{
+    "gamePlay": [
+        {
+            "id":1,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/4.svg",
+            "name": "Cricket",
+            "eventTypeId": 4,
+            "subMenu": [
+                {
+                    "id": 101,
+                    "subMenuName": "Twenty20 Big Bash",
+                    "subMenuChild": [
+                        {
+                            "id": 1001,
+                            "subChildName": "Twenty20 Big Bash",
+                            "data": [
+                                {
+                                    "name": "Match Odds",
+                                    "min": 100,
+                                    "max": "5k",
+                                    "subData": [
+                                       {
+                                         "itemName": "Hobart Hurricanes",
+                                         "value1": "1.68",
+                                         "value2": "1.69",
+                                         "value3": "1.7",
+                                         "value4": "1.72",
+                                         "value5": "1.73",
+                                         "value6": "1.74",
+                                         "subvalue1": "456.68",
+                                         "subvalue2": "486.69",
+                                         "subvalue3": "408.7",
+                                         "subvalue4": "272.72",
+                                         "subvalue5": "624.73",
+                                         "subvalue6": "126.74"
+                                       }
+                                    ]
+                                },
+                                {
+                                    "name": "BookMaker",
+                                    "min": 100,
+                                    "max": "5k",
+                                    "subData": [
+                                       {
+                                         "itemName": "Hobart Hurricanes",
+                                         "value1": "1.68",
+                                         "value2": "1.69",
+                                         "value3": "1.7",
+                                         "value4": "1.72",
+                                         "value5": "1.73",
+                                         "value6": "1.74",
+                                         "subvalue1": "456.68",
+                                         "subvalue2": "486.69",
+                                         "subvalue3": "408.7",
+                                         "subvalue4": "272.72",
+                                         "subvalue5": "624.73",
+                                         "subvalue6": "126.74"
+                                       }
+                                    ]
+                                },
+                                {
+                                    "name": "Toss",
+                                    "min": 100,
+                                    "max": "5k",
+                                    "subData": [
+                                       {
+                                         "itemName": "Hobart Hurricanes",
+                                         "value1": "1.68",
+                                         "value2": "1.69",
+                                         "value3": "1.7",
+                                         "value4": "1.72",
+                                         "value5": "1.73",
+                                         "value6": "1.74",
+                                         "subvalue1": "456.68",
+                                         "subvalue2": "486.69",
+                                         "subvalue3": "408.7",
+                                         "subvalue4": "272.72",
+                                         "subvalue5": "624.73",
+                                         "subvalue6": "126.74"
+                                       }
+                                    ]
+                                },
+                                {
+                                    "name": "Who will win the Match",
+                                    "min": 100,
+                                    "max": "5k",
+                                    "subData": [
+                                       {
+                                         "itemName": "Hobart Hurricanes",
+                                         "value1": "1.68",
+                                         "value2": "1.69",
+                                         "value3": "1.7",
+                                         "value4": "1.72",
+                                         "value5": "1.73",
+                                         "value6": "1.74",
+                                         "subvalue1": "456.68",
+                                         "subvalue2": "486.69",
+                                         "subvalue3": "408.7",
+                                         "subvalue4": "272.72",
+                                         "subvalue5": "624.73",
+                                         "subvalue6": "126.74"
+                                       }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": 1002,
+                            "subChildName": "Hobart Hurricanes v Sydney Thunder"
+                        }
+                    ]
+                },{
+                    "id": 102,
+                    "subMenuName": "Others"
+                },{
+                    "id": 103,
+                    "subMenuName": "Simulated Reality League / T20 International SRL"
+                },{
+                    "id": 104,
+                    "subMenuName": "Oman / Oman D50 League"
+                },{
+                    "id": 105,
+                    "subMenuName": "Simulated Reality League / Premier League SRL"
+                },{
+                    "id": 106,
+                    "subMenuName": "Simulated Reality League / Caribbean Premier League SRL"
+                },{
+                    "id": 107,
+                    "subMenuName": "Simulated Reality League / Pakistan Super League SRL"
+                },{
+                    "id": 108,
+                    "subMenuName": "International League T20"
+                },{
+                    "id": 109,
+                    "subMenuName": "SA20"
+                },{
+                    "id": 110,
+                    "subMenuName": "Jamaica T10"
+                },{
+                    "id": 111,
+                    "subMenuName": "Womens One Day Internationals"
+                },{
+                    "id": 112,
+                    "subMenuName": "Womens Super Smash T20"
+                },{
+                    "id": 113,
+                    "subMenuName": "Test Matches"
+                },{
+                    "id": 114,
+                    "subMenuName": "Super Smash T20"
+                },{
+                    "id": 115,
+                    "subMenuName": "Womens International Twenty20 Matches"
+                },{
+                    "id": 116,
+                    "subMenuName": "International Twenty20 Matches"
+                },{
+                    "id": 117,
+                    "subMenuName": "Bangladesh Premier League"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/1.svg",
+            "name": "FootBall",
+            "eventTypeId": 1,
+            "subMenu": [
+                {
+                    "id": 201,
+                    "subMenuName": "Australian A-League Men"
+                },
+                {
+                    "id": 202,
+                    "subMenuName": "Azerbaijan Premier League"
+                },
+                {
+                    "id": 203,
+                    "subMenuName": "Vietnamese V-League"
+                },
+                {
+                    "id": 204,
+                    "subMenuName": "Indonesian Liga 2"
+                },
+                {
+                    "id": 205,
+                    "subMenuName": "Vietnamese V-League"
+                },
+                {
+                    "id": 206,
+                    "subMenuName": "Indonesian Liga 1"
+                },
+                {
+                    "id": 207,
+                    "subMenuName": "Vietnamese V-League"
+                },
+                {
+                    "id": 208,
+                    "subMenuName": "Brazilian Paulista Serie A1"
+                },
+                {
+                    "id": 209,
+                    "subMenuName": "Indonesia / Liga 2"
+                },
+                {
+                    "id": 210,
+                    "subMenuName": "Indonesia / Liga 1"
+                },
+                {
+                    "id": 211,
+                    "subMenuName": "Australia / A-League"
+                },
+                {
+                    "id": 212,
+                    "subMenuName": "Bangladesh / Premier League"
+                }
+            ]
+        },{
+            "id":3,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/2.svg",
+            "name": "Tennis",
+            "eventTypeId": 2
+
+        },{
+            "id":4,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/2378961.svg",
+            "name": "Politics",
+            "eventTypeId": 2
+
+        },{
+            "id":5,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/99999.svg",
+            "name": "Casino",
+            "eventTypeId": 2
+
+        },{
+            "id":6,
+            "icons": "https://winbuzz.com/assets/img/icon/99998.png",
+            "name": "Int Casino",
+            "eventTypeId": 2
+
+        },{
+            "id":7,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/99991.svg",
+            "name": "Sports book",
+            "eventTypeId": 2
+
+        },{
+            "id":8,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/7.svg",
+            "name": "Horse Racing",
+            "eventTypeId": 2
+
+        },{
+            "id":9,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/4339.svg",
+            "name": "Greyhound Racing",
+            "eventTypeId": 2
+
+        },{
+            "id":10,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/99990.svg",
+            "name": "Binary",
+            "eventTypeId": 2
+
+        },{
+            "id":11,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/99994.svg",
+            "name": "Kabaddi",
+            "eventTypeId": 2
+
+        },{
+            "id":12,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/7522.svg",
+            "name": "Basketball",
+            "eventTypeId": 2
+
+        },{
+            "id":13,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/7511.svg",
+            "name": "Baseball",
+            "eventTypeId": 2
+
+        },
+        {
+            "id":14,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/2378961.svg",
+            "name": "Table Tennis",
+            "eventTypeId": 2
+
+        },{
+            "id":15,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/998917.svg",
+            "name": "Volleyball",
+            "eventTypeId": 2
+
+        },{
+            "id":16,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/7524.svg",
+            "name": "Ice Hockey",
+            "eventTypeId": 2
+
+        },{
+            "id":17,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/5.svg",
+            "name": "Rugby",
+            "eventTypeId": 2
+
+        },{
+            "id":18,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/26420387.svg",
+            "name": "Mixed Martial Arts",
+            "eventTypeId": 2
+
+        },{
+            "id":19,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/3503.svg",
+            "name": "Darts",
+            "eventTypeId": 2
+
+        },{
+            "id":20,
+            "icons": "https://winbuzz.com/assets/img/icon/sidebar/29.svg",
+            "name": "Futsal",
+            "eventTypeId": 2
+
+        }
+    ],
+
+    "cricketData": [
+        {
+            "id": 1,
+            "dateTime": "15/10/2024 13:45",
+            "title": "Twenty20 Big Bash",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "dateTime": "15/10/2024 13:45",
+            "title": "India vs Pakistan T10",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "dateTime": "15/10/2024 13:45",
+            "title": "Pakistan v West Indies",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "dateTime": "15/10/2024 13:45",
+            "title": "Twenty20 Big Bash",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "dateTime": "15/10/2024 13:45",
+            "title": "India vs Pakistan T10",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "dateTime": "15/10/2024 13:45",
+            "title": "Pakistan v West Indies",
+            "subTitle": "BM",
+            "datas": [
+                {
+                    "value": 14.87,
+                    "value2": 6457.86
+                },
+                {
+                    "value": 17.87,
+                    "value2": 6.86
+                },
+                {
+                    "value": 4.87,
+                    "value2": 657.86
+                },{
+                    "value": "--",
+                    "value2": "--"
+                },{
+                    "value": 67.7,
+                    "value2": 457.86
+                },{
+                    "value": 23.87,
+                    "value2": 647.8
+                }
+            ]
+        }
+    ],
+    "rulesData":[
+        {
+            "id":11,
+            "title":"FootBall Fancy",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },
+        {
+            "id":12,
+            "title":"Big Bash League",
+            "subTitle":[
+                {
+                    "id": 3001,
+                    "text": "Total match 1st over run:- Average 6 runs will be given if total 20 overs is not played, only 1st innings will be considered as valid"
+                },
+                {
+                    "id": 3002,
+                    "text": "Highest innings run - Only first innings is valid"
+                },
+                {
+                    "id": 3003,
+                    "text": "Lowest innings run - Only first innings is valid"
+                },
+                {
+                    "id": 3004,
+                    "text": "Total 1st 6 over run:- Average 46 runs will be given if total 20 overs is not played, This event is valid only for the 1st innings"
+                },
+                {
+                    "id": 3005,
+                    "text": "Total Fours - Average 25 fours will be given in case match abandoned or over reduced."
+                },
+                {
+                    "id": 3006,
+                    "text": "Total Sixes - Average 10 sixes will be given in case match abandoned or over reduced."
+                },
+                {
+                    "id": 3007,
+                    "text": "Total Wickets - Average will 12 Wickets be given in case match abandoned or over reduced."
+                },
+                {
+                    "id": 3008,
+                    "text": "Total Wides - Average 8 wides will be given in case match abandoned or over reduced."
+                },{
+                    "id": 3009,
+                    "text": "Total Extras - Average 14 extras will be given in case match abandoned or over reduced."
+                },{
+                    "id": 3010,
+                    "text": "Total Fifties - Average 2 fifties will be given in case match abandoned or over reduced."
+                },{
+                    "id": 3011,
+                    "text": "Total Caught out - Average 8 catch out will be given in case match abandoned or over reduced."
+                },{
+                    "id": 3012,
+                    "text": "Total Bowled out - Average 2 bowled out will be given in case match abandoned or over reduced."
+                },{
+                    "id": 3013,
+                    "text": "Highest 6 over run: Both innings are valid."
+                },{
+                    "id": 3014,
+                    "text": "Highest run in individual match: Both innings are valid"
+                },{
+                    "id": 3015,
+                    "text": "Highest Fours in individual match: Both innings are valid."
+                },{
+                    "id": 3016,
+                    "text": "Highest Sixes in individual match: Both innings are valid."
+                } 
+            ]
+        },
+        {
+            "id":13,
+            "title":"Lunch Favourite",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },
+        {
+            "id":14,
+            "title":"Bookmaker",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":15,
+            "title":"Politics",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":16,
+            "title":"Fancy Market",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":17,
+            "title":"IPL",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":18,
+            "title":"Women's Premier League(WPL)",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":19,
+            "title":"Pakistan Super Leauge(PSL)",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":20,
+            "title":"Kabaddi",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id": 21,
+            "title":"Horse Racing",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":22,
+            "title":"World Cup",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id": 23,
+            "title":"Binary",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":24,
+            "title":"Match",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":25,
+            "title":"Khado",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":26,
+            "title":"Election",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        },{
+            "id":27,
+            "title":"Virtual Tennis",
+            "subTitle":[
+                {
+                    "id":2001,
+                    "text": "Company reserves the right to suspend/void any id/bets if the same is found to be illegitimate. For example incase of vpn/robot-use/multiple entry from same IP/ multiple bets at same time (Punching) and others. Note : only winning bets will be voided..."
+                }, {
+                    "id":2002,
+                    "text": "Tournament Total Goals, Team Total Goals goals.scored in 90 minutes or in extra-time will count.Goals scored in penalty shootouts do not count."
+                }, {
+                    "id":2003,
+                    "text": "Tournament Corners - Only corners taken in 90 minutes count."
+                },{
+                    "id":2004,
+                    "text": "Tournament Penalties Missed/Converted - Penalties taken in 90 minutes, extra-time and penalty shootouts all count. If a penalty has to be re-taken the previous disallowed penalty(ies) do not count."
+                }   
+            ]
+        }
+    ]
+}

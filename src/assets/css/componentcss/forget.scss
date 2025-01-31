@@ -1,0 +1,52 @@
+.forgetContainer{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    background-color: #1111119b;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed;
+    z-index: 2;
+    .forgetSubcontainer{
+        position: relative;
+        animation: var(--slide-down);
+        padding: 2rem;
+        min-width: 40px;
+        border-radius: 5px;
+        background: var(--theme-secondary);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        span{
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            color:#fff;
+            cursor: pointer;
+        }
+        form{
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            input{
+                width: 300px;
+                outline: none;
+                @apply pl-4 pr-4 py-2 border border-gray-300 focus:shadow-sm focus:shadow-[var(--primary)] focus:border focus:border-[var(--primary)] rounded placeholder-opacity-25  text-sm;
+            }
+            button{
+                background-color: #1E5058;
+                width: 300px;
+                padding: 0.5rem;
+                border-radius: 5px;
+                color:#fff;
+                font-size: 0.8rem;
+            }
+        }
+       
+    }
+}

@@ -1,0 +1,36 @@
+.footer{
+    .whatsapp_link{
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 1;
+        img{
+            width: 75px;
+            animation: var(--zigzag);
+        }
+    }
+    .casino-chip{
+        position: fixed;
+        left: 20px;
+        bottom: 1rem;
+        z-index: 1;
+        img{
+            width: 55px;
+            animation: var(--zigzag);
+        }
+    }
+}
+
+@media only screen and (max-width: 1041px){
+    .footer{
+        .whatsapp_link{
+            bottom: 4rem;
+            img{
+                width: 75px;
+            }
+        }
+        .casino-chip{
+            bottom: 4.5rem;
+        }
+    }
+}

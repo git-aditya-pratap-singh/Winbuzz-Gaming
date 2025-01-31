@@ -1,0 +1,145 @@
+.betsSection{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    display: flex;
+    flex-direction: column;
+    animation: var(--slide-down);
+    
+    .betsHeader{
+        background-image: linear-gradient(90deg, #686666 50%, #707070);
+        border-radius: 5px 5px 0px 0px;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 20px;
+        align-items: center;
+        .betsHeading{
+            padding: 0.2rem;
+            border-radius: 5px 0px 0px 0px;
+            width: 50%;
+            background: var(--theme-color);
+            display: inline-flex;
+            clip-path: polygon(0px 0px, 100% 0%, 85% 100%, 0% 100%);
+            label{
+                font-weight: 600;
+                color:#fff;
+            }
+        } 
+    }
+    .betsBody{
+        padding: 0.5rem;
+        .betsBody-container{
+            padding: 0.5rem;
+            
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            justify-content: center;
+            align-items: start;
+            p{
+                font-size: 0.65rem;
+                line-height: 5px;
+            }
+            .inputA{
+                width: 130px;
+                border: none;
+                outline: none;
+                padding-left: 5px;
+                font-size: 0.9rem;
+                color: #111;
+            }
+            .inputB{
+                width: 160px;
+                font-size: 0.85rem;
+                padding: 0.4rem;
+                border: 1px solid rgb(229, 227, 227);
+                border-radius: 5px;
+                &:active{
+                    border: 1px solid red;
+                }
+            }
+            button{
+                margin-right: 2px;
+                border: 1px solid #65bae2;
+                background: #fff;
+                color: #65bae2 !important;
+                font-size: 12px;
+                font-weight: 600;
+                border-radius: 50px;
+                height: 28px;
+                width: 24%;
+                &:hover{
+                    color:#f2f0f0  !important;;
+                    background-color: #48bdf3 !important;
+                }
+            }
+            .stakeChage{
+                width: calc(25% - 2px);
+                border: none;
+                border-radius: 20px;
+                color: #000;
+                font-size: 10px;
+                height: 28px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                line-height: normal;
+                font-weight: 700;
+                cursor: pointer;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+                &:nth-child(1){
+                    background-color: #ffce00;
+                    color: #111;
+                }
+                &:nth-child(2){
+                    background-color: #75b7ff;;
+                    color: #111;
+                }
+                &:nth-child(3){
+                    background-color: #a5ff93;
+                    color: #111;
+                }
+                &:nth-child(4){
+                    background-color: #fffc9f;
+                    color: #111;
+                }
+            }
+            .bs_cancel{
+                border: 1px solid #6394c9 !important;
+                color: #6394c9 !important;
+                font-size: 0.8rem;
+                height: 36px;
+                background: none;
+                width: 100%;
+                border-radius: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: capitalize;
+                font-weight: 300;
+                cursor: pointer;
+            }
+            .bs_pb{
+                font-weight: 300;
+                width: 100%;
+                background: #4caf50 !important;
+                font-size: 0.8rem;
+                height: 36px;
+                border-radius: 50px;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-transform: capitalize;
+                color: #fff !important;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1041px){
+    .betsSection{
+        width: 380px;
+    }
+}

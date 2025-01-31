@@ -1,50 +1,31 @@
-import PropTypes from 'prop-types';
-//import validateForm from "../../validation/validate";
+import logo from "../../../assets/img/logo.png";
 import InputField from "../FormComponents/InputField";
+import { login_popup, forget_popup } from "../../redux/slices/stateSlice";
 //-------------ICON--------------------
 import IconComponent from "../../../assets/icons/IconComponent";
 //--------------CSS--------------------
 import "../../../assets/css/componentcss/_loginForms.scss";
+import { useDispatch } from "react-redux";
 
-const LoginForms = ({forms, schema}) => {
-  
-//     const dispatch = useDispatch();
-//     const [auth, setAuth] = useAuthGuard();
-//     const navigate = useNavigate();
+const LoginForms = ({forms}) => {
 
-//     const handleValidate = (form, schema)=>{
-//         const errors = validateForm(form, schema)                            
-//         if(errors != {}) return Object.entries(errors)[0]; 
-//         return;
-//     }
+  const dispatch = useDispatch();
+  const funcTy = ()=>{
+    dispatch(forget_popup(true))
+    dispatch(login_popup(false))
+  }
 
-//     const handleSubmit = async (event) => {
-//         event.preventDefault();
-//         const formData = new FormData(event.target)
-//         const objFormData = Object.fromEntries(formData);
-//         const haveErrors = handleValidate(objFormData, schema);
-//         if (haveErrors) return toast.error(Object.values(haveErrors)[1]);
-//         //---API calling
-//         const apiResponse = await new Apiauth().login(objFormData);
-//         if (apiResponse.status) {
-//             storeTokenInStorage(apiResponse.data);
-//             setAuth({
-//                 ...auth,
-//                 user: apiResponse.data.UserInfo,
-//                 token: apiResponse.data.token,
-//             });
-//             dispatch(login_popup(false));
-//             navigate("/dashboard/home");
-//         }
-// };
+  const loginWithDemoID = ()=>{
+    localStorage.setItem('loginID',true)
+  }
 
 return (
     <>
       <section className="_loginContainer">
         <div className='loginSubContainer'>
-          <label>LOTUS<span>365</span></label>
-          <form className="_form">
-            <h2>LOGIN <span><IconComponent iconType="loginHand"/></span> </h2>
+             <span onClick={()=>dispatch(login_popup(false))}><IconComponent iconType="crossIcon"/></span>
+              <form className="_form">
+              <img src={logo} alt="Error" width={150} height={150}/>
             {forms.map((items, index)=>{
               return(
                 <InputField
@@ -57,10 +38,13 @@ return (
                 />
               )
             })}
-            <button><IconComponent iconType="loginIcon"/>Login</button>
-            <button><IconComponent iconType="loginIcon"/>Login with Demo ID</button>
+            <button>LOGIN</button>
+            <button onClick={loginWithDemoID}>LOGIN WITH DEMO ID</button>
+            <button className="apk">Download APK <IconComponent iconType="androidIcon" iconSize={20}/></button>
+            <button className="underline text-slate-800" onClick={funcTy}>Forgot Password?</button>
+            <a href="mailto:win4betofficial@gmail.com">win4betofficial@gmail.com</a>
           </form>
-        </div>
+          </div>
       </section>
     </>
   );

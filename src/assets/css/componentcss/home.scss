@@ -1,0 +1,60 @@
+.cricketcontainer{
+    display: flex;
+    justify-content: center;
+    gap:0.5rem;
+    padding: 0.5rem;
+    .homesubContainer{
+     
+    }
+    .imageConatiner{
+        
+    }
+}
+.imageConatiner{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    flex-direction: row;
+    .exchage-game-col {
+        width: 33.23%;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        a{
+            width: 100%;
+            height: auto;
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            flex-direction: row;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border: 1px solid rgb(51, 51, 51);
+            margin: 2px 2px 0px 0px;
+            position: relative;
+            cursor: default;
+            background-position: center top;
+            img{
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1041px){
+    .cricketcontainer{
+        flex-direction: column;
+        .homesubContainer{
+
+        }
+    }
+    .imageConatiner{
+        margin-bottom: 5rem;
+    }
+}

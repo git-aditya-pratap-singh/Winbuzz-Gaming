@@ -1,0 +1,55 @@
+.changeConatiner{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    .PasswordContainer{
+        margin-top: 3rem;
+        width: 300px;
+        padding: 0.6rem;
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 1rem;
+        label{
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        input{
+            width: 280px;
+            outline: none;
+            padding: 0.5rem;
+            font-size: 0.7rem;
+            border-radius: 5px;
+            border: 1px solid rgb(218, 218, 218);
+            &:focus{
+                border: 2px solid gray;
+            }
+        }
+        button{
+            width: 100%;
+            padding: 0.5rem;
+            background-color: #198754;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            border: 1px solid #fff;
+            font-weight: 600;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                background-color: #107144;
+            }
+        }
+                
+    }
+}
+
+@media only screen and (max-width: 1041px){
+    .changeConatiner{
+        height: 60vh;
+    }
+}

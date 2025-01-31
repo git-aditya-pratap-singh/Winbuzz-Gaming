@@ -1,0 +1,136 @@
+.registrationConatiner{
+    background: var(--secondary);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .registrationsSubcontainer{
+        max-width: 360px;
+        padding: 1rem;
+        border-radius: 5px;
+        border: 1px solid #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+        input{
+            background: transparent;
+            color: #fff;
+            width: 300px;
+            outline: none;
+            border-bottom: 1px solid #222738;
+            font-size: 0.75rem;
+            @apply pl-4 pr-4 py-2 placeholder-opacity-25;
+            &::placeholder{
+                color: #fff;
+            }
+        }
+        small{
+            font-weight: 600;
+            text-align: start;
+            color: #fff;
+            font-size: 0.6rem;
+        }
+        button{
+            background-color: #1e5058;
+            padding: 0.4rem;
+            font-size: 0.8rem;
+            color: #fff;
+        }
+        .whatsapp_ids_section{
+            margin: 0 auto;
+            span {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                color: #fff;
+                position: relative;
+                font-size: 12px;
+                justify-content: center;
+                margin-bottom: 10px;
+                &::before{
+                    width: 130px;
+                    position: relative;
+                    right: 10px;
+                    content: '';
+                    background: var(--theme-primary);
+                    height: 1px;
+                }
+                &::after{
+                    width: 130px;
+                    position: relative;
+                    left: 10px;
+                    content: '';
+                    background: var(--theme-primary);
+                    height: 1px;
+                }
+            }
+            h4{
+                text-align: center;
+                color: #fff;
+                font-size: 0.8rem;
+                text-transform: capitalize;
+                text-justify:auto;
+            }
+        }
+        ._whatsappLink{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.3rem;
+            background: #f4ca5b;
+            border-radius: 5px;
+            color: #000;
+            text-transform: uppercase;
+            text-decoration: none;
+            padding: 0.5rem;
+            font-size: 0.85rem;
+            font-weight: 400;
+            cursor: pointer;
+        }
+        ._loginInfo{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.4rem;
+            color: #fff;
+            font-size: 0.75rem;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .rowBonus{
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0.3rem;
+            .bonuscol{
+                padding: 0.5rem;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background: transparent linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
+                span{
+                    font-size:0.8rem;
+                    font-weight: 600;
+                }
+                small{
+                    display: inline-block;
+                    background: #0f2326;
+                    border-radius: 3px;
+                    line-height: 2.5;
+                    font-weight: 700;
+                    color: #fff;
+                    border: 1px solid #fff;
+                    font-style: italic;
+                    font-size: 0.4rem;
+                    letter-spacing: 1px;
+                    padding: 0 6px;
+                }
+            }
+        }
+    }
+}
