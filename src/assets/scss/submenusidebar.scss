@@ -1,11 +1,12 @@
-.submenuSidebar{
+.submenuSidebar {
     padding: 0.5rem;
     background: #fff;
     border-radius: 5px;
     position: absolute;
     animation: var(--slide-side);
     height: 80%;
-    div{
+
+    div {
         background: var(--theme-color);
         padding: 0.5rem;
         width: 200px;
@@ -14,26 +15,30 @@
         font-size: 0.8rem;
         display: flex;
         align-items: center;
-        gap:0.5rem;
+        gap: 0.5rem;
     }
-    .title{
+
+    .title {
         padding: 0.2rem;
         border-radius: 5px;
         color: #474646;
-        font-size: 1rem; 
+        font-size: 1rem;
     }
-    ul{
+
+    ul {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: start;
-        li{
+
+        li {
             width: 200px;
             padding: 0.3rem;
-            font-size:0.8rem;
+            font-size: 0.8rem;
             font-weight: 600;
             border-bottom: 1px solid #dad9d9;
-            &:hover{
+
+            &:hover {
                 padding: 0.9rem;
                 background-color: rgb(221, 221, 221);
                 transition: all 0.3s ease-in-out;
@@ -41,17 +46,16 @@
         }
     }
 }
-@media only screen and (max-width: 1041px){
-    .submenuSidebar{
+
+@media only screen and (max-width: 1041px) {
+    .submenuSidebar {
         overflow-y: scroll;
         margin-top: 3rem;
         width: 300px;
         background: var(--secondary);
-        .title{
-            color:#fff
-        }
-        ul{
-            
+
+        .title {
+            color: #fff
         }
     }
 }

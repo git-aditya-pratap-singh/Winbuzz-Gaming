@@ -1,11 +1,12 @@
-.registrationConatiner{
+.registrationConatiner {
     background: var(--secondary);
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    .registrationsSubcontainer{
+
+    .registrationsSubcontainer {
         max-width: 360px;
         padding: 1rem;
         border-radius: 5px;
@@ -16,7 +17,8 @@
         align-items: center;
         gap: 1rem;
         box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
-        input{
+
+        input {
             background: transparent;
             color: #fff;
             width: 300px;
@@ -24,24 +26,29 @@
             border-bottom: 1px solid #222738;
             font-size: 0.75rem;
             @apply pl-4 pr-4 py-2 placeholder-opacity-25;
-            &::placeholder{
+
+            &::placeholder {
                 color: #fff;
             }
         }
-        small{
+
+        small {
             font-weight: 600;
             text-align: start;
             color: #fff;
             font-size: 0.6rem;
         }
-        button{
+
+        button {
             background-color: #1e5058;
             padding: 0.4rem;
             font-size: 0.8rem;
             color: #fff;
         }
-        .whatsapp_ids_section{
+
+        .whatsapp_ids_section {
             margin: 0 auto;
+
             span {
                 width: 100%;
                 display: flex;
@@ -51,7 +58,8 @@
                 font-size: 12px;
                 justify-content: center;
                 margin-bottom: 10px;
-                &::before{
+
+                &::before {
                     width: 130px;
                     position: relative;
                     right: 10px;
@@ -59,7 +67,8 @@
                     background: var(--theme-primary);
                     height: 1px;
                 }
-                &::after{
+
+                &::after {
                     width: 130px;
                     position: relative;
                     left: 10px;
@@ -68,15 +77,17 @@
                     height: 1px;
                 }
             }
-            h4{
+
+            h4 {
                 text-align: center;
                 color: #fff;
                 font-size: 0.8rem;
                 text-transform: capitalize;
-                text-justify:auto;
+                text-justify: auto;
             }
         }
-        ._whatsappLink{
+
+        ._whatsappLink {
             display: flex;
             align-items: center;
             justify-content: center;
@@ -91,7 +102,8 @@
             font-weight: 400;
             cursor: pointer;
         }
-        ._loginInfo{
+
+        ._loginInfo {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -101,23 +113,27 @@
             text-decoration: underline;
             cursor: pointer;
         }
-        .rowBonus{
+
+        .rowBonus {
             width: 90%;
             display: flex;
             justify-content: space-between;
             align-items: center;
             gap: 0.3rem;
-            .bonuscol{
+
+            .bonuscol {
                 padding: 0.5rem;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 background: transparent linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
-                span{
-                    font-size:0.8rem;
+
+                span {
+                    font-size: 0.8rem;
                     font-weight: 600;
                 }
-                small{
+
+                small {
                     display: inline-block;
                     background: #0f2326;
                     border-radius: 3px;

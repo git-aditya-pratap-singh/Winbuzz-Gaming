@@ -1,46 +1,51 @@
-.betsSection{
+.betsSection {
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     display: flex;
     flex-direction: column;
     animation: var(--slide-down);
-    
-    .betsHeader{
+
+    .betsHeader {
         background-image: linear-gradient(90deg, #686666 50%, #707070);
         border-radius: 5px 5px 0px 0px;
         display: flex;
         justify-content: space-between;
         padding-right: 20px;
         align-items: center;
-        .betsHeading{
+
+        .betsHeading {
             padding: 0.2rem;
             border-radius: 5px 0px 0px 0px;
             width: 50%;
             background: var(--theme-color);
             display: inline-flex;
             clip-path: polygon(0px 0px, 100% 0%, 85% 100%, 0% 100%);
-            label{
+
+            label {
                 font-weight: 600;
-                color:#fff;
+                color: #fff;
             }
-        } 
+        }
     }
-    .betsBody{
+
+    .betsBody {
         padding: 0.5rem;
-        .betsBody-container{
+
+        .betsBody-container {
             padding: 0.5rem;
-            
             border-radius: 5px;
             display: flex;
             flex-direction: column;
             gap: 0.5rem;
             justify-content: center;
             align-items: start;
-            p{
+
+            p {
                 font-size: 0.65rem;
                 line-height: 5px;
             }
-            .inputA{
+
+            .inputA {
                 width: 130px;
                 border: none;
                 outline: none;
@@ -48,17 +53,20 @@
                 font-size: 0.9rem;
                 color: #111;
             }
-            .inputB{
+
+            .inputB {
                 width: 160px;
                 font-size: 0.85rem;
                 padding: 0.4rem;
                 border: 1px solid rgb(229, 227, 227);
                 border-radius: 5px;
-                &:active{
+
+                &:active {
                     border: 1px solid red;
                 }
             }
-            button{
+
+            button {
                 margin-right: 2px;
                 border: 1px solid #65bae2;
                 background: #fff;
@@ -68,12 +76,15 @@
                 border-radius: 50px;
                 height: 28px;
                 width: 24%;
-                &:hover{
-                    color:#f2f0f0  !important;;
+
+                &:hover {
+                    color: #f2f0f0 !important;
+                    ;
                     background-color: #48bdf3 !important;
                 }
             }
-            .stakeChage{
+
+            .stakeChage {
                 width: calc(25% - 2px);
                 border: none;
                 border-radius: 20px;
@@ -87,24 +98,30 @@
                 font-weight: 700;
                 cursor: pointer;
                 box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-                &:nth-child(1){
+
+                &:nth-child(1) {
                     background-color: #ffce00;
                     color: #111;
                 }
-                &:nth-child(2){
-                    background-color: #75b7ff;;
+
+                &:nth-child(2) {
+                    background-color: #75b7ff;
+                    ;
                     color: #111;
                 }
-                &:nth-child(3){
+
+                &:nth-child(3) {
                     background-color: #a5ff93;
                     color: #111;
                 }
-                &:nth-child(4){
+
+                &:nth-child(4) {
                     background-color: #fffc9f;
                     color: #111;
                 }
             }
-            .bs_cancel{
+
+            .bs_cancel {
                 border: 1px solid #6394c9 !important;
                 color: #6394c9 !important;
                 font-size: 0.8rem;
@@ -119,7 +136,8 @@
                 font-weight: 300;
                 cursor: pointer;
             }
-            .bs_pb{
+
+            .bs_pb {
                 font-weight: 300;
                 width: 100%;
                 background: #4caf50 !important;
@@ -138,8 +156,8 @@
     }
 }
 
-@media only screen and (max-width: 1041px){
-    .betsSection{
+@media only screen and (max-width: 1041px) {
+    .betsSection {
         width: 380px;
     }
 }

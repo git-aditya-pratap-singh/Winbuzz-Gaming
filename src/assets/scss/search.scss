@@ -1,4 +1,4 @@
-.searchBackContainer{
+.searchBackContainer {
     width: 100vw;
     height: 100%;
     display: flex;
@@ -8,7 +8,8 @@
     padding: 0rem;
     position: fixed;
     z-index: 9999;
-    .searchContainer{
+
+    .searchContainer {
         padding: 0rem 1rem;
         top: 0;
         background: var(--theme-color);
@@ -18,18 +19,21 @@
         justify-content: space-between;
         align-items: center;
         animation: var(--slide-down);
-        span{
+
+        span {
             font-weight: 600;
         }
-        input{
+
+        input {
             width: 80%;
             padding: 0.5rem;
             height: 60px;
             outline: none;
             background-color: transparent;
             text-align: center;
-            &::placeholder{
-                color:#e2e0e0;
+
+            &::placeholder {
+                color: #e2e0e0;
             }
         }
     }

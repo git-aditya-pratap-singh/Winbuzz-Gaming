@@ -1,4 +1,4 @@
-.rulesBackConatiner{
+.rulesBackConatiner {
     width: 100vw;
     height: 100%;
     display: flex;
@@ -8,7 +8,8 @@
     padding: 0.5rem;
     position: fixed;
     z-index: 3;
-    .rulesConatiner{
+
+    .rulesConatiner {
         overflow: hidden;
         background-color: #fff;
         animation: var(--slide-down);
@@ -19,7 +20,8 @@
         background-repeat: no-repeat;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-        .rulesHeader{
+
+        .rulesHeader {
             background-color: rgb(0 0 0 / 3%);
             display: flex;
             justify-content: space-between;
@@ -28,11 +30,13 @@
             font-weight: 400;
             padding: 0.6rem 1rem;
             box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-            span{
+
+            span {
                 cursor: pointer;
             }
         }
-        .card-body{
+
+        .card-body {
             padding: 1rem;
             font-size: 0.7rem;
             overflow-y: scroll;
@@ -43,27 +47,33 @@
 }
 
 .card-body::-webkit-scrollbar {
-    width: 12px; 
-    height: 12px; 
+    width: 12px;
+    height: 12px;
 }
+
 .card-body::-webkit-scrollbar-thumb {
     background-color: #b0b0b0;
     border-radius: 10px;
-    border: 3px solid #ecf0f1; 
+    border: 3px solid #ecf0f1;
 }
+
 .card-body::-webkit-scrollbar-thumb:hover {
-    background-color: #d0d1d2; 
+    background-color: #d0d1d2;
 }
+
 .card-body::-webkit-scrollbar-track {
-    background-color: #ecf0f1; 
+    background-color: #ecf0f1;
     border-radius: 10px;
 }
+
 .card-body::-webkit-scrollbar-track:hover {
-    background-color: #dfe6e9; 
+    background-color: #dfe6e9;
 }
+
 .card-body::-webkit-scrollbar-button {
     display: none;
 }
+
 .card-body::-webkit-scrollbar-corner {
     background-color: #ecf0f1;
 }

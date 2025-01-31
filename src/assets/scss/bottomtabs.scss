@@ -6,17 +6,16 @@
   color: #040404;
   font-size: 0.8rem;
   z-index: 1;
-  background-image: radial-gradient(
-    circle at 50% 3px,
-    transparent 35px,#000 35px
-  );
+  background-image: radial-gradient(circle at 50% 3px, transparent 35px, #000 35px);
   padding: 0.6rem 0.7rem;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   display: none;
+
   ul {
     display: flex;
     margin: 0;
+
     li {
       -webkit-box-align: center;
       -ms-flex-align: center;
@@ -35,13 +34,13 @@
       -webkit-box-pack: center;
       -ms-flex-pack: center;
       justify-content: center;
-      
-      
+
       a {
         top: 0;
         color: var(--primary-text-color);
         cursor: pointer;
         position: relative;
+
         img {
           width: auto;
           height: 18px;
@@ -49,12 +48,14 @@
           margin: auto;
           transition: all 0.2s ease-in;
         }
+
         .blank-bg {
           background-color: transparent;
           width: auto;
           height: auto;
         }
       }
+
       .title-name {
         color: #fff;
         z-index: 9;
@@ -68,47 +69,50 @@
 }
 
 .big {
+  position: absolute;
+  height: 70px;
+  width: 20%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+
+  &::before {
+    content: "";
     position: absolute;
-    height: 70px;
-    width: 20%;
-    margin: 0 auto;
     left: 0;
     right: 0;
-    bottom: 50px;
-    &::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 5px;
-      width: 60px;
-      height: 60px;
-      background-color: #000;
-      border-radius: 100%;
-      z-index: -1;
-      margin: auto;
-    }
-    a {
-      position: relative;
-      color: #ababab;
-      top: -24px;
-      background-color: transparent;
+    top: 5px;
+    width: 60px;
+    height: 60px;
+    background-color: #000;
+    border-radius: 100%;
+    z-index: -1;
+    margin: auto;
+  }
+
+  a {
+    position: relative;
+    color: #ababab;
+    top: -24px;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+
+    img {
       width: auto;
-      height: auto;
-      margin-top: auto;
-      img {
-        width: auto;
-        height: 18px;
-        display: inline-block;
-        margin: auto;
-        -webkit-transition: all 0.2s ease-in;
-        transition: all 0.2s ease-in;
-      }
+      height: 18px;
+      display: inline-block;
+      margin: auto;
+      -webkit-transition: all 0.2s ease-in;
+      transition: all 0.2s ease-in;
     }
+  }
 }
 
-@media only screen and (max-width: 1041px){
-   .bottom-tabs{
-    display:  block;
-   }
+@media only screen and (max-width: 1041px) {
+  .bottom-tabs {
+    display: block;
+  }
 }

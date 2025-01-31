@@ -1,22 +1,18 @@
-.cricketcontainer{
+.cricketcontainer {
     display: flex;
     justify-content: center;
-    gap:0.5rem;
+    gap: 0.5rem;
     padding: 0.5rem;
-    .homesubContainer{
-     
-    }
-    .imageConatiner{
-        
-    }
 }
-.imageConatiner{
+
+.imageConatiner {
     width: 100%;
     display: flex;
     align-items: flex-start;
     -webkit-box-pack: justify;
     justify-content: space-between;
     flex-direction: row;
+
     .exchage-game-col {
         width: 33.23%;
         display: flex;
@@ -24,7 +20,8 @@
         align-items: center;
         flex-direction: column;
         position: relative;
-        a{
+
+        a {
             width: 100%;
             height: auto;
             display: flex;
@@ -38,7 +35,8 @@
             position: relative;
             cursor: default;
             background-position: center top;
-            img{
+
+            img {
                 max-width: 100%;
                 width: 100%;
                 height: auto;
@@ -47,14 +45,12 @@
     }
 }
 
-@media only screen and (max-width: 1041px){
-    .cricketcontainer{
+@media only screen and (max-width: 1041px) {
+    .cricketcontainer {
         flex-direction: column;
-        .homesubContainer{
-
-        }
     }
-    .imageConatiner{
+
+    .imageConatiner {
         margin-bottom: 5rem;
     }
 }

@@ -1,10 +1,11 @@
-.cricketBaseContainer{
+.cricketBaseContainer {
     display: flex;
     justify-content: space-between;
     align-items: start;
     padding: 0.5rem;
-    gap:0.5rem;
-    .baseContainerA{
+    gap: 0.5rem;
+
+    .baseContainerA {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -13,25 +14,29 @@
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         width: 70%;
-        .baseHeader{
+
+        .baseHeader {
             display: flex;
             justify-content: start;
             align-items: center;
-            gap:0.6rem;
+            gap: 0.6rem;
             font-size: 0.85rem;
             width: 100%;
             padding: 0.5rem;
             background-color: rgb(220, 220, 220);
             position: relative;
-            span{
+
+            span {
                 cursor: pointer;
             }
-            h2{
+
+            h2 {
                 text-transform: uppercase;
                 font-size: 0.95rem;
                 font-weight: 600;
             }
-            .scorecard__btn{
+
+            .scorecard__btn {
                 position: absolute;
                 right: 5px;
                 top: 7px;
@@ -49,7 +54,8 @@
                 gap: 0.3rem;
             }
         }
-        .conatiner-main{
+
+        .conatiner-main {
             padding: 0;
             width: 100%;
             background-image: linear-gradient(0deg, rgb(0 0 0 / 39%), rgb(0 0 0 / 30%)), url('https://www.stageandscreen.travel/sites/default/files/styles/large/public/LP%20-%20Cricket%20Australia.jpg?itok=dStxvjPW');
@@ -64,27 +70,31 @@
             animation: var(--slide-down);
         }
     }
-    .baseContainerB{
+
+    .baseContainerB {
         display: flex;
         flex-direction: column;
         border-radius: 5px;
         box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
         width: 360px;
         background-color: rgb(225, 224, 224);
-        .sub-containerBA{
+
+        .sub-containerBA {
             padding: 0.2rem;
             border-radius: 5px 0px 0px 0px;
             width: 50%;
             background: var(--theme-color);
             display: inline-flex;
             clip-path: polygon(0px 0px, 100% 0%, 85% 100%, 0% 100%);
-            label{
+
+            label {
                 font-size: 0.9rem;
                 font-weight: 600;
                 color: #fff;
             }
         }
-        .sub-containerBB{
+
+        .sub-containerBB {
             background-color: #fff;
             display: inline;
             text-align: center;
@@ -93,42 +103,49 @@
             gap: 0.2rem;
             font-size: 0.85rem;
             padding: 0.5rem;
-            button{
+
+            button {
                 padding: 0.5rem;
-                &:nth-child(1){
+
+                &:nth-child(1) {
                     border-radius: 5px 5px 0px 0px;
                     background-color: #505050;
                     color: #fff;
                 }
-                &:nth-child(2){
+
+                &:nth-child(2) {
                     border-radius: 5px 5px 0px 0px;
                     background-color: #e8e8e8;
-                }  
+                }
             }
-            
+
         }
-        
+
     }
-    
+
 }
 
-@media only screen and (max-width: 1041px){
-    .cricketBaseContainer{
+@media only screen and (max-width: 1041px) {
+    .cricketBaseContainer {
         flex-direction: column;
         align-items: start;
         padding: 0.05rem;
         margin-bottom: 5rem;
-        .baseContainerA{
+
+        .baseContainerA {
             width: 100%;
-            .baseHeader{
+
+            .baseHeader {
                 font-size: 0.65rem;
-                h2{
+
+                h2 {
                     white-space: nowrap;
                     font-size: 0.68rem;
                 }
             }
         }
-        .baseContainerB{
+
+        .baseContainerB {
             margin-top: 0.8rem;
             margin-bottom: 2rem;
             width: 100%;

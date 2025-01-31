@@ -1,43 +1,51 @@
-.betsConatiner{
+.betsConatiner {
     width: 1;
     padding: 0.5rem;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
-    .betsHeader{
+
+    .betsHeader {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        h1{
+
+        h1 {
             font-size: 1.5rem;
             font-weight: 600;
             color: #333;
         }
-        .betsHeader-section-item{
+
+        .betsHeader-section-item {
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
             align-items: center;
             gap: 1rem;
-            .itemSection{
+
+            .itemSection {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 font-size: 0.8rem;
-                gap:1rem;
+                gap: 1rem;
             }
-            .gridDate{ 
+
+            .gridDate {
                 display: flex;
                 justify-content: space-between;
                 align-items: center;
-                .input-select-w{
+
+                .input-select-w {
                     width: 24%;
                     margin: 0 4px;
-                    label{
+
+                    label {
                         font-size: 12px;
                         text-transform: capitalize;
                         margin: 0 0 5px;
                     }
-                    select{
+
+                    select {
                         border: 1px solid #d1d1d1 !important;
                         background: #f3f3f3 !important;
                         color: #666;
@@ -45,7 +53,8 @@
                         font-size: 12px;
                         border-radius: 5px;
                         height: 35px;
-                        option{
+
+                        option {
                             font-weight: normal;
                             display: block;
                             padding-block-start: 0px;
@@ -55,7 +64,8 @@
                             white-space: nowrap;
                         }
                     }
-                    input{
+
+                    input {
                         padding: 0.7rem;
                         border: 1px solid #d1d1d1 !important;
                         background: #f3f3f3 !important;
@@ -66,54 +76,63 @@
                         height: 35px;
                     }
                 }
-                button{
+
+                button {
                     background: var(--theme-color);
                     margin-top: 1.6rem;
                     padding: 0.5rem;
                     border-radius: 5px;
-                    color:#fff;
+                    color: #fff;
                     font-size: 0.8rem;
                     min-width: 100px;
                 }
             }
         }
-        
+
     }
-    .betsBody{
+
+    .betsBody {
         padding: 0.3rem;
         margin-top: 1rem;
     }
 }
 
-@media only screen and (max-width: 1041px){
-    .betsConatiner{
+@media only screen and (max-width: 1041px) {
+    .betsConatiner {
         height: 62vh;
-        .betsHeader{
+
+        .betsHeader {
             flex-direction: column;
             align-items: start;
-            .betsHeader-section-item{
-               .itemSection{
-                   width: 100%;
-                   align-items: center;
-                   justify-content: start;
-                   span{
-                    margin-top: 1rem;
-                   }
+
+            .betsHeader-section-item {
+                .itemSection {
+                    width: 100%;
+                    align-items: center;
+                    justify-content: start;
+
+                    span {
+                        margin-top: 1rem;
+                    }
                 }
-                .gridDate{
+
+                .gridDate {
                     width: 100%;
                     flex-direction: column;
                     align-items: start;
-                    .input-select-w{
-                        select{
+
+                    .input-select-w {
+                        select {
                             width: 90vw;
                         }
-                        input{
+
+                        input {
                             width: 90vw;
                         }
                     }
                 }
-                button{
+
+                button {
                     width: 100%;
                 }
             }

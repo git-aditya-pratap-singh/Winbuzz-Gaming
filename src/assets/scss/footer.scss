@@ -1,35 +1,40 @@
-.footer{
-    .whatsapp_link{
+.footer {
+    .whatsapp_link {
         position: fixed;
         right: 1rem;
         bottom: 1rem;
         z-index: 1;
-        img{
+
+        img {
             width: 75px;
             animation: var(--zigzag);
         }
     }
-    .casino-chip{
+
+    .casino-chip {
         position: fixed;
         left: 20px;
         bottom: 1rem;
         z-index: 1;
-        img{
+
+        img {
             width: 55px;
             animation: var(--zigzag);
         }
     }
 }
 
-@media only screen and (max-width: 1041px){
-    .footer{
-        .whatsapp_link{
+@media only screen and (max-width: 1041px) {
+    .footer {
+        .whatsapp_link {
             bottom: 4rem;
-            img{
+
+            img {
                 width: 75px;
             }
         }
-        .casino-chip{
+
+        .casino-chip {
             bottom: 4.5rem;
         }
     }
