@@ -1,20 +1,19 @@
 import { useDispatch } from "react-redux";
 import { search_popup } from "../../redux/slices/stateSlice";
+//---------------ICON and SCSS--------------------
 import IconComponent from "../../../assets/icons/IconComponent";
-import "../../../assets/css/componentcss/search.scss";
+import "../../../assets/scss/search.scss";
 
-const Search = ()=>{
+const Search = () => {
     const dispatch = useDispatch();
-    return(
-        <>
+    return (
         <section className="searchBackContainer">
             <div className="searchContainer">
-                <span className="icons" onClick={()=> dispatch(search_popup(false))}><IconComponent iconType="leftArrowIcon" iconSize={22} iconColor="#fff"/></span>
-                <input type="text" placeholder="Search Events"/>
-                <span className="icons"><IconComponent iconType="searchIcon" iconSize={22} iconColor="#fff"/></span>
+                <span className="icons" onClick={() => dispatch(search_popup(false))}><IconComponent iconType="leftArrowIcon" iconSize={22} iconColor="#fff" /></span>
+                <input type="text" placeholder="Search Events" />
+                <span className="icons"><IconComponent iconType="searchIcon" iconSize={22} iconColor="#fff" /></span>
             </div>
         </section>
-        </>
     )
 }
 export default Search;

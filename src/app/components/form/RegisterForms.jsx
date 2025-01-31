@@ -1,27 +1,27 @@
 import { useNavigate } from "react-router";
 import { useDispatch } from "react-redux";
-import logo from "../../../assets/img/logo.png";
+import { login_popup } from "../../redux/slices/stateSlice";
+//-----------------ICON and Components-------------
 import InputField from "../FormComponents/InputField";
 import IconComponent from "../../../assets/icons/IconComponent";
-import { login_popup } from "../../redux/slices/stateSlice";
-import "../../../assets/css/componentcss/registration.scss";
+//--------------LOGO and SCSS--------------
+import logo from "../../../assets/img/logo.png";
+import "../../../assets/scss/registration.scss";
 
-
-const RegisterForms = ({forms})=>{
+const RegisterForms = ({ forms }) => {
 
     const navigate = useNavigate();
     const dispatch = useDispatch();
-    const func = ()=>{
+    const func = () => {
         navigate("../");
         dispatch(login_popup(true))
     }
-    return(
-        <>
+    return (
         <section className="registrationConatiner">
             <div className="registrationsSubcontainer">
-                <img src={logo} alt="Error" width={150} height={150}/>
-                {forms.map((items, index)=>{
-                    return(
+                <img src={logo} alt="Error" width={150} height={150} />
+                {forms.map((items, index) => {
+                    return (
                         <InputField
                             key={index}
                             type={items.type}
@@ -41,7 +41,7 @@ const RegisterForms = ({forms})=>{
                 </div>
 
                 <a className="_whatsappLink" target="_blank" href="https://api.whatsapp.com/send?phone=918103817644">
-                    <span><IconComponent iconType="whatsappIcon" iconSize={23}/></span>
+                    <span><IconComponent iconType="whatsappIcon" iconSize={23} /></span>
                     <label>WHATSAPP NOW</label>
                 </a>
 
@@ -66,7 +66,6 @@ const RegisterForms = ({forms})=>{
                 </div>
             </div>
         </section>
-        </>
     )
 }
 export default RegisterForms;

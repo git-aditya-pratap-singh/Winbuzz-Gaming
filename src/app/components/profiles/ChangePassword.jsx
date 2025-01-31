@@ -1,6 +1,7 @@
 import changePswdStructure from "../../validation/FormStructure/changepswd";
 import InputField from "../FormComponents/InputField";
-import "../../../assets/css/componentcss/changepswd.scss";
+//----------------SCSS-------------------
+import "../../../assets/scss/changepswd.scss";
 
 const ChangePassword = ()=>{
     return(

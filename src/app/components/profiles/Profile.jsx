@@ -1,8 +1,9 @@
-import IconComponent from "../../../assets/icons/IconComponent";
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useDispatch } from "react-redux";
-import { profile_popup,  bonus_popup  } from "../../redux/slices/stateSlice";
-import "../../../assets/css/componentcss/profile.scss";
+import { profile_popup, bonus_popup  } from "../../redux/slices/stateSlice";
+//-----------------ICON And SCSS-------------------
+import IconComponent from "../../../assets/icons/IconComponent";
+import "../../../assets/scss/profile.scss";
 
 const Profile = ()=>{
     const titleData = [

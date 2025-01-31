@@ -1,7 +1,8 @@
 import { createBrowserRouter, Navigate } from "react-router-dom";
-import {IsloginGuard, ProctedRouteGuard} from "../_guard/route.guard";
+import { IsloginGuard, ProctedRouteGuard } from "../_guard/route.guard";
+
 import Dashboard from "../pages/home/dashboard";
-import Home from "../components/Home"; 
+import Home from "../components/Home";
 import Registration from "../pages/home/Registration";
 import MyBets from "../components/profiles/MyBets";
 import ProfitLoss from "../components/profiles/ProfitLoss";
@@ -18,21 +19,21 @@ import NotFound from "../pages/home/NotFround";
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Dashboard />, 
+        element: <Dashboard />,
         children: [
             {
-                index: true, 
-                element: <Navigate to="/dashboard" />, 
+                index: true,
+                element: <Navigate to="/dashboard" />,
             },
             {
-                path: "/dashboard",  
+                path: "/dashboard",
                 element: <Home />
             },
             {
                 path: "/reports/bet-history",
                 element: (
                     <IsloginGuard>
-                      <MyBets/>
+                        <MyBets />
                     </IsloginGuard>
                 )
             },
@@ -40,7 +41,7 @@ const router = createBrowserRouter([
                 path: "/reports/profit-loss",
                 element: (
                     <IsloginGuard>
-                      <ProfitLoss/>
+                        <ProfitLoss />
                     </IsloginGuard>
                 )
             },
@@ -48,7 +49,7 @@ const router = createBrowserRouter([
                 path: "/reports/account-statement",
                 element: (
                     <IsloginGuard>
-                      <AccountStatment/> 
+                        <AccountStatment />
                     </IsloginGuard>
                 )
             },
@@ -56,7 +57,7 @@ const router = createBrowserRouter([
                 path: "/market-analysis",
                 element: (
                     <IsloginGuard>
-                      <MarketAnalysis/>
+                        <MarketAnalysis />
                     </IsloginGuard>
                 )
             },
@@ -64,7 +65,7 @@ const router = createBrowserRouter([
                 path: "/settings",
                 element: (
                     <IsloginGuard>
-                      <StakeSettings/>
+                        <StakeSettings />
                     </IsloginGuard>
                 )
             },
@@ -72,7 +73,7 @@ const router = createBrowserRouter([
                 path: "/change-password",
                 element: (
                     <IsloginGuard>
-                      <ChangePassword/>
+                        <ChangePassword />
                     </IsloginGuard>
                 )
             },
@@ -80,7 +81,7 @@ const router = createBrowserRouter([
                 path: "/game-detail/:id",
                 element: (
                     <IsloginGuard>
-                       <GameDetails/>
+                        <GameDetails />
                     </IsloginGuard>
                 )
             },
@@ -88,14 +89,14 @@ const router = createBrowserRouter([
                 path: "/reffer-and-earn",
                 element: (
                     <IsloginGuard>
-                       <RefferAndEarn/>
+                        <RefferAndEarn />
                     </IsloginGuard>
                 )
-            },{
+            }, {
                 path: "/bonus-list",
                 element: (
                     <IsloginGuard>
-                       <BonusList/>
+                        <BonusList />
                     </IsloginGuard>
                 )
             },
@@ -103,24 +104,24 @@ const router = createBrowserRouter([
                 path: "/game-list/:id",
                 element: (
                     <IsloginGuard>
-                       <GameList/>
+                        <GameList />
                     </IsloginGuard>
                 )
             }
         ],
     },
-    
+
     {
-        path: "/register",  
+        path: "/register",
         element: (
             <ProctedRouteGuard>
-               <Registration />
+                <Registration />
             </ProctedRouteGuard>
         ),
     },
     {
         path: "*",  // Catch-all route for 404
-        element: <NotFound/>,
+        element: <NotFound />,
     },
 ]);
 

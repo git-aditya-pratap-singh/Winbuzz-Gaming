@@ -1,16 +1,17 @@
 import { useDispatch } from "react-redux";
 import { bonus_popup } from "../../redux/slices/stateSlice";
 import IconComponent from "../../../assets/icons/IconComponent";
-import "../../../assets/css/componentcss/bonusrules.scss";
+//----------------SCSS-------------------
+import "../../../assets/scss/bonusrules.scss";
 
-const BonusRules = ()=>{
+const BonusRules = () => {
     const dispatch = useDispatch();
-    return(
+    return (
         <section className="rulesBackConatiner">
             <div className="rulesConatiner">
                 <div className="rulesHeader">
                     <label>Bonus Rules</label>
-                    <span onClick={()=>dispatch(bonus_popup(false))}><IconComponent iconType="crossIcon"/></span>
+                    <span onClick={() => dispatch(bonus_popup(false))}><IconComponent iconType="crossIcon" /></span>
                 </div>
 
                 <div className="card-body">
@@ -23,17 +24,17 @@ const BonusRules = ()=>{
                         <p>First Deposit :</p><br></br>
 
                         <p>INR 300-5,000 =&gt; 300%&nbsp;&nbsp;on 200 X True Rolling<br></br>
-                        INR 5,001-2,00,000 =&gt;&nbsp;50% or 15,000 Whichever is&nbsp;MORE on 200X True Rolling<br></br>
-                        INR 2,00,001 OR MORE =&gt;&nbsp;1,00,000&nbsp;&nbsp;on 200X True Rolling</p>
+                            INR 5,001-2,00,000 =&gt;&nbsp;50% or 15,000 Whichever is&nbsp;MORE on 200X True Rolling<br></br>
+                            INR 2,00,001 OR MORE =&gt;&nbsp;1,00,000&nbsp;&nbsp;on 200X True Rolling</p>
                         <p>Second Deposit :</p><br></br>
 
                         <p>INR 300-10,000 =&gt;&nbsp;50 %&nbsp;&nbsp;on 200X True Rolling<br></br>
-                        INR 10,001 - 4,00,000 =&gt;&nbsp;25% or 5,000 Whichever is More on 200X True Rolling<br></br>
-                        INR 4,00,001 OR MORE =&gt;&nbsp;1,00,000&nbsp;&nbsp;on 200X True Rolling</p>
+                            INR 10,001 - 4,00,000 =&gt;&nbsp;25% or 5,000 Whichever is More on 200X True Rolling<br></br>
+                            INR 4,00,001 OR MORE =&gt;&nbsp;1,00,000&nbsp;&nbsp;on 200X True Rolling</p>
                         <br></br><br></br>
 
                         <p>
-                        On Every Deposit Bonus (min:1000) :&nbsp;&nbsp;10% on 200 X True Rolling up to Deposit of 10,00,000</p>
+                            On Every Deposit Bonus (min:1000) :&nbsp;&nbsp;10% on 200 X True Rolling up to Deposit of 10,00,000</p>
                         <br></br>
                         <p>(On&nbsp;&nbsp;Deposit of more than 10,00,000 , you will get Bonus equivalent to deposit of 10,00,000)</p>
                         <br></br>

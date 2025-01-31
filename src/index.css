@@ -19,7 +19,6 @@ body {
 
 @layer base {
   :root {
-    /* Common Variables */
     --theme-primary: #1E5058;
     --theme-secondary: #0F2326;
     --theme-opacity: #106257ab;
@@ -53,7 +52,6 @@ body {
     --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-    
     --primary: #ebda8d;
     --secondary: #b88831;
     --theme-color: transparent linear-gradient(94deg, #b6842d, #ebda8d 55%, #b7862f);
@@ -64,7 +62,6 @@ body {
     --card-foreground: #11181e;
     --footer-color: #9ab3ff53;
 
-
     --navbar-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
     --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     --slide-side: slidepopupModel 1s cubic-bezier(0.215, 0.610, 0.355, 1);
@@ -74,6 +71,7 @@ body {
     --blink: blink 2.5s ease-in-out infinite;
   }
 }
+
 /* Animations */
 @keyframes slide-down {
   from {
@@ -84,36 +82,35 @@ body {
   }
 }
 
-
-  @keyframes slidepopupModel {
-      0% {
-          opacity: 0;
-          transform: translateX(50%);
-      }
-      100% {
-          opacity: 1;
-          transform: translateY(0);
-      }
+@keyframes slidepopupModel {
+  0% {
+      opacity: 0;
+      transform: translateX(50%);
   }
-
-  @keyframes animatePopup {
-    0% {
-      transform: scale(1);
-    }
-    100% {
-      transform: scale(1.1);
-    }
+  100% {
+      opacity: 1;
+      transform: translateY(0);
   }
+}
 
-  @keyframes blink {
-    0% {
-       background-color: #28a745;;
-    }
-    50% {
-      background-color: #202020;
-    }
-    100% {
-      background-color: #28a745;
-    }
+@keyframes animatePopup {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes blink {
+  0% {
+     background-color: #28a745;;
+  }
+  50% {
+    background-color: #202020;
+  }
+  100% {
+    background-color: #28a745;
+  }
 }
 

@@ -8,9 +8,9 @@ const AuthGuard = ({ children }) => {
 
     useEffect(() => {
         const data = localStorage.getItem('loginID');
-        if(data){
+        if (data) {
             const parseData = JSON.parse(data)
-            setAuth(parseData) 
+            setAuth(parseData)
         }
     }, [])
 
@@ -28,5 +28,5 @@ const useAuthGuard = () => {
     return useContext(AuthContext);
 };
 
-export default AuthGuard; 
-export {useAuthGuard};
+export default AuthGuard;
+export { useAuthGuard };

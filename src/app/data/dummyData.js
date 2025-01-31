@@ -42,111 +42,111 @@ const adds2Image = [casino1, casino2, casino3, casino4, casino5, casino6, casino
 
 //---- Navigation Game Data---------
 const GameNavigation = [
-    {
-      id: 1,
-      'name': 'CRICKET',
-      'eventTypeId': 4,
-      'image': `${cricketIcon}`
-    },
-    {
-      id: 2,
-      'name': 'FOOTBALL',
-      'eventTypeId': 1,
-      'image': `${FootBallIcon}`
-    },
-    {
-      id: 3,
-      'name': 'TENNIS',
-      'eventTypeId': 2,
-       'image': `${TennisIcon}`
-    },
-    {
-      id: 4,
-      'name': 'POLITICS',
-      'eventTypeId': 4
-    },
-    {
-      id: 5,
-      'name': 'CASINO',
-      'eventTypeId': 4
-    },
-    {
-      id: 6,
-      'name': 'INTCASINO',
-      'eventTypeId': 4
-    },
-    {
-      id: 7,
-      'name': 'SPORTS BOOK',
-      'eventTypeId': 4
-    },
-    {
-      id: 8,
-      'name': 'HORSE RACING',
-      'eventTypeId': 4
-    },
-    {
-      id: 9,
-      'name': 'GREY HOUND',
-      'eventTypeId': 4
-    },
-    {
-      id: 10,
-      'name': 'RACING',
-      'eventTypeId': 4
-    },
-    {
-      id: 11,
-      'name': 'BINARY',
-      'eventTypeId': 4
-    },
-    {
-      id: 12,
-      'name': 'KABADDI',
-      'eventTypeId': 4
-    },
-    {
-      id: 13,
-      'name': 'BASKETBALL',
-      'eventTypeId': 4
-    },
-    {
-      id: 14,
-      'name': 'BASEBALL',
-      'eventTypeId': 4
-    },
-    {
-      id: 15,
-      'name': 'TABLE TENNIS',
-      'eventTypeId': 4
-    },
-    {
-      id: 16,
-      'name': 'VOLLEYBALL',
-      'eventTypeId': 4
-    },
-    {
-      id: 17,
-      'name': 'RUGBY',
-      'eventTypeId': 4
-    },
-    {
-      id: 18,
-      'name': 'MIXED MARTIAL ARTS',
-      'eventTypeId': 4
-    },
-    {
-      id: 19,
-      'name': 'DARTS',
-      'eventTypeId': 4
-    },
-    {
-      id: 20,
-      'name': 'FUTSAL',
-      'eventTypeId': 4
-    }
+  {
+    id: 1,
+    'name': 'CRICKET',
+    'eventTypeId': 4,
+    'image': `${cricketIcon}`
+  },
+  {
+    id: 2,
+    'name': 'FOOTBALL',
+    'eventTypeId': 1,
+    'image': `${FootBallIcon}`
+  },
+  {
+    id: 3,
+    'name': 'TENNIS',
+    'eventTypeId': 2,
+    'image': `${TennisIcon}`
+  },
+  {
+    id: 4,
+    'name': 'POLITICS',
+    'eventTypeId': 4
+  },
+  {
+    id: 5,
+    'name': 'CASINO',
+    'eventTypeId': 4
+  },
+  {
+    id: 6,
+    'name': 'INTCASINO',
+    'eventTypeId': 4
+  },
+  {
+    id: 7,
+    'name': 'SPORTS BOOK',
+    'eventTypeId': 4
+  },
+  {
+    id: 8,
+    'name': 'HORSE RACING',
+    'eventTypeId': 4
+  },
+  {
+    id: 9,
+    'name': 'GREY HOUND',
+    'eventTypeId': 4
+  },
+  {
+    id: 10,
+    'name': 'RACING',
+    'eventTypeId': 4
+  },
+  {
+    id: 11,
+    'name': 'BINARY',
+    'eventTypeId': 4
+  },
+  {
+    id: 12,
+    'name': 'KABADDI',
+    'eventTypeId': 4
+  },
+  {
+    id: 13,
+    'name': 'BASKETBALL',
+    'eventTypeId': 4
+  },
+  {
+    id: 14,
+    'name': 'BASEBALL',
+    'eventTypeId': 4
+  },
+  {
+    id: 15,
+    'name': 'TABLE TENNIS',
+    'eventTypeId': 4
+  },
+  {
+    id: 16,
+    'name': 'VOLLEYBALL',
+    'eventTypeId': 4
+  },
+  {
+    id: 17,
+    'name': 'RUGBY',
+    'eventTypeId': 4
+  },
+  {
+    id: 18,
+    'name': 'MIXED MARTIAL ARTS',
+    'eventTypeId': 4
+  },
+  {
+    id: 19,
+    'name': 'DARTS',
+    'eventTypeId': 4
+  },
+  {
+    id: 20,
+    'name': 'FUTSAL',
+    'eventTypeId': 4
+  }
 ]
 
-export {imageBanner, addsImage, adds2Image, GameNavigation};
+export { imageBanner, addsImage, adds2Image, GameNavigation };
 
 

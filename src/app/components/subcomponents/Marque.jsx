@@ -1,4 +1,4 @@
-import '../../../assets/css/componentcss/_marque.scss';
+import '../../../assets/scss/_marque.scss';
 
 const Marquee = () => {
   return (

@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
-import "../../../assets/css/componentcss/tables.scss";
+import "../../../assets/scss/tables.scss";
 
-const Table = ({tableHeader}) => {
+const Table = ({ tableHeader }) => {
   return (
     <>
       <div className="_tableContainer">
@@ -9,13 +9,11 @@ const Table = ({tableHeader}) => {
           {/* head */}
           <thead>
             <tr>
-                {
-                    tableHeader.map((item,index)=>{
-                        return(
-                            <th key={index}>{item}</th>
-                        )
-                    })
-                }
+              {
+                tableHeader.map((item, index) => {
+                  return <th key={index}>{item}</th>
+                })
+              }
             </tr>
           </thead>
           <tbody>
@@ -32,6 +30,6 @@ const Table = ({tableHeader}) => {
 };
 
 Table.propTypes = {
-    tableHeader: PropTypes.arrayOf(PropTypes.string).isRequired, // Corrected prop validation
-  };
+  tableHeader: PropTypes.arrayOf(PropTypes.string).isRequired, 
+};
 export default Table;

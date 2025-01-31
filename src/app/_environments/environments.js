@@ -1,6 +1,6 @@
 const environmentURL = {
-    apiUrl: 'https://cache7.live/api',
-    productionApiUrl: ''
-  };
-  
+  apiUrl: 'https://cache7.live/api',
+  productionApiUrl: ''
+};
+
 export default environmentURL;

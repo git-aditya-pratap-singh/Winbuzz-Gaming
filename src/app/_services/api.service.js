@@ -32,7 +32,7 @@ class ApiService {
     }
     handleError(error) {
         console.error('API Error:', error);
-        throw error; 
+        throw error;
     }
 }
 

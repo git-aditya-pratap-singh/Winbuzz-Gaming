@@ -1,9 +1,9 @@
 import IconComponent from "../../../assets/icons/IconComponent";
-import "../../../assets/css/componentcss/_tablegrid.scss";
+import "../../../assets/scss/_tablegrid.scss";
 
 
-const TableGrid = ()=>{
-    return(
+const TableGrid = () => {
+    return (
         <section className="table-container">
             <div className="constiner-Header">
                 <div className="header1">
@@ -18,7 +18,7 @@ const TableGrid = ()=>{
             <div className="table-body">
                 <div className="row-section">
                     <div className="row-section-A">
-                        <span><IconComponent iconType="starIcon"/></span>
+                        <span><IconComponent iconType="starIcon" /></span>
                         <label>10 Over Runs HH (N)</label>
                     </div>
 
@@ -26,7 +26,7 @@ const TableGrid = ()=>{
                         <div className="flex items-center gap-2">
 
                             {/* <div className="ball-running">Suspended</div> */}
-                            
+
                             <div className="flex flex-col justify-center items-center py-1 px-2 rounded bg-[#a5d9fe]">
                                 <label className="text-[0.8rem] font-bold">13.76</label>
                                 <span className="text-[0.7rem]">87.76</span>
@@ -36,7 +36,7 @@ const TableGrid = ()=>{
                                 <label className="text-[0.8rem] font-bold">13.76</label>
                                 <span className="text-[0.7rem]">87.76</span>
                             </div>
-                             
+
                         </div>
                         <div className="flex flex-col items-center justify-center text-[0.55rem]">
                             <label>Min Bet: 100</label>
